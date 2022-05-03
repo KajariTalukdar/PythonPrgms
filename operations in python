@@ -1,10 +1,11 @@
 num1 = input("enter number 1: ")
 num2 = input("Enter number 2: ")
-result_sum = int (num1)+ int(num2)
-result_substract = int (num1) - int(num2)
-result_div = int (num1) / int(num2)
-result_exp = int (num1)**int(num2)
-result_multiply = int(num1)* int(num2)
+num3=69
+result_sum = int (num1)+ int(num2) + num3
+result_substract = int (num1) - int(num2) -num3
+result_div = int (num1) / int(num2)/num3
+result_exp = int (num1)**int(num2)**num3
+result_multiply = int(num1)* int(num2)*num3
 print ("sum: ", result_sum)
 print ("substract: ",result_substract)
 print ("division: ",result_div)
